@@ -48,3 +48,9 @@ A dynamic quiz application that tests user knowledge and tracks performance in r
  ┣ 📂 03-Quiz-Game
  ┃ ┗ 📜 index.html, style.css, script.js
  ┗ 📜 README.md
+
+### Contact
+Feel free to connect with me:
+
+GitHub: https://github.com/Ruhi-06/CODSOFT-/tree/main
+LinkedIn: https://www.linkedin.com/in/ruhanee-patil-948511353?utm_source=share_via&utm_content=profile&utm_medium=member_android
