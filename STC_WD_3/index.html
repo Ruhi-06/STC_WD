@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillCraft 10-Question Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="quiz-container" id="quiz-box">
+        <div id="quiz-header">
+            <p id="progress">Question 1 of 10</p>
+            <h2 id="question-text">Question goes here...</h2>
+        </div>
+        
+        <div id="answer-buttons" class="btn-grid">
+            <!-- Buttons injected by JS -->
+        </div>
+
+        <button id="next-btn" class="hide">Next Question</button>
+    </div>
+
+    <!-- Final Scorecard -->
+    <div id="result-screen" class="quiz-container hide">
+        <h1>Quiz Completed!</h1>
+        <div class="score-circle">
+            <span id="final-score">0</span>/10
+        </div>
+        <p id="message">Great effort!</p>
+        <button onclick="location.reload()" class="restart-btn">Try Again</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
